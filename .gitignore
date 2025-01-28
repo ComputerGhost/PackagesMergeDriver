@@ -1,32 +1,13 @@
-# Prerequisites
-*.d
+# Operating system files
+.DS_Store
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Editor temporary files
+.vs/
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Building
+x64/
